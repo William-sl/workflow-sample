@@ -1,0 +1,36 @@
+{
+  "name": "workflow-sample",
+  "version": "0.1.0",
+  "description": "Awesome node module",
+  "keywords": [
+    "workflow-sample",
+    "zce"
+  ],
+  "homepage": "https://github.com/jim/workflow-sample#readme",
+  "bugs": {
+    "url": "https://github.com/jim/workflow-sample/issues"
+  },
+  "license": "MIT",
+  "author": "Jim <271733311@qq.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim/workflow-sample.git"
+  },
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
